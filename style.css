@@ -26,7 +26,8 @@ h1 {
   overflow: hidden;
 }
 /* Cai nay la vach mau cam o duoi phan navbar */
-.navbar::after {
+
+/* .navbar::after {
   z-index: -1;
 }
 .navbar:after {
@@ -40,7 +41,8 @@ h1 {
 }
 *::after {
   box-sizing: border-box;
-}
+} */
+
 /* Cai nay la vach mau cam o duoi phan navbar */
 
 .navbar a {
@@ -56,24 +58,24 @@ h1 {
 .navbar li {
   float: left;
 }
-.dropdown{
+.dropdown {
   display: block;
   position: absolute;
   left: 0;
   /* top: 100%; */
 }
-.dropdown ul{
+.dropdown ul {
   display: block;
-  margin: 10px
+  margin: 10px;
 }
-.dropdown ul li{
+.dropdown ul li {
   width: 150px;
   padding: 10px;
 }
-.dropdown{
-  display: none
+.dropdown {
+  display: none;
 }
-.navbar ul li:hover .dropdown{
+.navbar ul li:hover .dropdown {
   display: block;
   position: absolute;
   left: 0;
